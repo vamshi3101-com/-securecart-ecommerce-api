@@ -12,7 +12,7 @@
 
 ```java
 @Query("""
-    SELECT new com.securecart.dto.ProductDTO(p.name, c.name)
+    SELECT new com.vamshi.ecommerce.dto.ProductDTO(p.name, c.name)
     FROM Product p
     JOIN p.category c
 """)
