@@ -1,14 +1,14 @@
 # SecureCart - E-commerce REST API
 
-**Live API:** `http://YOUR-EC2-IP/api/products?page=0&size=10`  
-**Postman:** `/docs/postman_collection.json`  
-**SQL Proof:** `/docs/sql-proof.png`
+> Hands-on backend project built with Java 17 + Spring Boot to solve real
+> backend problems such as N+1 queries, pagination, caching, and authentication.
 
 > Production-style backend built with Java 17 + Spring Boot to solve real backend problems such as N+1 queries, concurrent updates, pagination, caching, and authentication.
 
 ## 🚀 Performance Wins
 
-**N+1: 11 queries → 1 query (1200ms → 120ms)**
+Resolved the N+1 query problem using `JOIN FETCH` and DTO projections,
+reducing unnecessary database queries and improving API response performance.
 
 ```java
 @Query("""
