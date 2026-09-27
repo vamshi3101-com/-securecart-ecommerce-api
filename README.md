@@ -3,7 +3,7 @@
 > Hands-on backend project built with Java 17 + Spring Boot to solve real
 > backend problems such as N+1 queries, pagination, caching, and authentication.
 
-> Production-style backend built with Java 17 + Spring Boot to solve real backend problems such as N+1 queries, concurrent updates, pagination, caching, and authentication.
+
 
 ## 🚀 Performance Wins
 
