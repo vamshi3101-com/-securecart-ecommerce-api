@@ -5,7 +5,7 @@
 
 
 
-## 🚀 Performance Wins
+##  N+1 Query Optimization
 
 Resolved the N+1 query problem using `JOIN FETCH` and DTO projections,
 reducing unnecessary database queries and improving API response performance.
